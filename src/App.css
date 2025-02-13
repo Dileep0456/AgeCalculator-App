@@ -8,9 +8,9 @@
 }
 .header h1 {
   text-align: center;
-  font-size: 30px;
-  margin-bottom: 20px;
+  font-size: 25px;
   color: #f0f2f0;
+  padding-bottom: 20px;
 }
 .display {
   margin-top: 30px;
@@ -53,10 +53,11 @@
   margin-top: -30px;
   text-align: center;
 }
-.output-section h5 {
+.output-section h4 {
   color: #f0f2f0;
   text-align: start;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
+  padding-top: 20px;
 }
 .output-section h4 {
   color: #f0f2f0;
@@ -119,4 +120,77 @@
 .error-section p {
   color: rgb(196, 82, 82);
   margin-bottom: 10px;
+  text-align: start;
+  font-size: 0.9rem;
+}
+/* ----------------------navbar--------------------------------------------------- */
+
+
+.navbar {
+ 
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 20px;
+ 
+}
+
+.navbar .logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(62, 207, 212);
+  text-decoration: none;
+}
+
+.navbar .navbar-links {
+  display: flex;
+}
+
+.navbar .navbar-links a {
+  color:  #87929e;
+  text-decoration: none;
+  padding: 14px 20px;
+  display: block;
+}
+
+.navbar .navbar-links a:hover {
+  border: 1px solid #19273e;
+  color: black;
+}
+/* ...........................footer......................................... */
+
+
+.line {
+ 
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.line p {
+  margin: 8px 0;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #87929e;
+}
+
+.line a {
+  color:#adbccc;
+  text-decoration: none;
+}
+
+.line a:hover {
+  text-decoration: underline;
+}
+
+.footer {
+
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 0 0 8px 8px;
+  margin-top: 20px;
+  font-size: small;
+ 
 }
