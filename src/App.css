@@ -1,0 +1,122 @@
+.container {
+  width: 500px;
+  height: auto;
+  margin: 100px auto;
+  border-radius: 25px;
+  padding: 30px 20px;
+  box-shadow: 0 5px 10px rgba(56, 248, 182, 0.3);
+}
+.header h1 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: #f0f2f0;
+}
+.display {
+  margin-top: 30px;
+  text-align: center;
+  display: flex;
+}
+.left-section {
+  width: 50%;
+}
+.note-section p {
+  font-size: 0.8rem;
+  color: #8a8a8a;
+  margin-bottom: 10px;
+}
+.note-section {
+  margin-top: 20px;
+}
+.input-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.input-group input[type="text"] {
+  width: 150px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 20px;
+  text-align: center;
+  outline: none;
+  background-color: transparent;
+  color: white;
+  box-shadow: 0 3px 5px rgba(56, 248, 182, 0.5);
+}
+.input-group input[type="text"]:active {
+  box-shadow: 0 5px 10px rgba(56, 248, 182, 0.3);
+}
+.output-section {
+  margin-top: -30px;
+  text-align: center;
+}
+.output-section h5 {
+  color: #f0f2f0;
+  text-align: start;
+  font-size: 0.8rem;
+}
+.output-section h4 {
+  color: #f0f2f0;
+  text-align: start;
+}
+
+.right-section {
+  width: 50%;
+}
+.btn button {
+  display: block;
+  width: 150px;
+  padding: 15px 20px;
+  margin: 0 auto;
+  margin-top: 30px;
+  background-color: transparent;
+  color: rgb(62, 207, 212);
+  border: 2px solid rgb(49, 95, 96);
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 1rem;
+}
+
+.btn button:hover {
+  background-color: rgba(62, 207, 212, 0.7);
+  color: #192735;
+  border: 1px solid #19273e;
+}
+
+.btn button:active {
+  background-color: rgba(85, 194, 198, 0.8);
+  color: #c8cdc8;
+  border: 1px solid #19273e;
+}
+.reset-btn button {
+  /* margin-top: 30px; */
+  margin-bottom: 20px;
+  background-color: transparent;
+  color: rgb(62, 207, 212);
+  border: 2px solid rgb(49, 95, 96);
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 0.8rem;
+  padding: 2px 10px;
+}
+
+.reset-btn button:hover {
+  background-color: rgba(62, 207, 212, 0.7);
+  color: #192735;
+  border: 1px solid #19273e;
+}
+
+.reset-btn button:active {
+  background-color: rgba(85, 194, 198, 0.8);
+  color: #c8cdc8;
+  border: 1px solid #19273e;
+}
+.error-section p {
+  color: rgb(196, 82, 82);
+  margin-bottom: 10px;
+}
